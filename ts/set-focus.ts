@@ -1,3 +1,5 @@
+/// <reference path = "typings/auto.d.ts" />
+
 import {Directive, ElementRef} from '@angular/core';
 
 @Directive({
@@ -17,4 +19,3 @@ export class SetFocusDirective {
   }
 
 }
-
