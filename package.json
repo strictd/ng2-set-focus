@@ -1,12 +1,9 @@
 {
   "name": "@strictd/set-focus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set focus to form element on page load",
   "main": "set-focus.js",
   "private": true,
-  "typescript": {
-    "definition": "set-focus.d.ts"
-  },
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
