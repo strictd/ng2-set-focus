@@ -2,7 +2,7 @@
   "name": "@strictd/set-focus",
   "version": "1.0.3",
   "description": "Set focus to form element on page load",
-  "main": "dist/set-focus.js",
+  "main": "set-focus.js",
   "private": true,
   "scripts": {
     "preinstall": "npm install autodts",
