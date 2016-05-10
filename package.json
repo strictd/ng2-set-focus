@@ -10,7 +10,7 @@
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@angular/core": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1"
   },
   "devDependencies": {
     "@angular/common": "^2.0.0-rc.1",
