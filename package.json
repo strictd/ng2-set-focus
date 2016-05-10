@@ -2,7 +2,7 @@
   "name": "@strictd/set-focus",
   "version": "1.0.3",
   "description": "Set focus to form element on page load",
-  "main": "auto-grow.js",
+  "main": "dist/set-focus.js",
   "private": true,
   "scripts": {
     "preinstall": "npm install autodts",
@@ -10,7 +10,7 @@
     "prepublish": "tsc && autodts generate"
   },
   "typescript": {
-    "definition": "auto-grow.d.ts"
+    "definition": "set-focus.d.ts"
   },
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
