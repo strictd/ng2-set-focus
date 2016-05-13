@@ -3,7 +3,6 @@
   "version": "1.0.5",
   "description": "Set focus to form element on page load",
   "main": "set-focus.js",
-  "private": true,
   "author": "Gary <gravity.addiction@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
