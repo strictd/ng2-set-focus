@@ -10,21 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var SetFocusDirective = (function () {
-    function SetFocusDirective(el) {
-        this.el = el;
-        setTimeout(function () {
-            var end = el.nativeElement.value.length;
-            if (typeof el.nativeElement.selectionStart !== 'undefined') {
-                el.nativeElement.selectionStart = end;
-                el.nativeElement.selectionEnd = end;
-            }
-        }, 0);
+    function SetFocusDirective(renderer, elementRef) {
+        this.renderer = renderer;
+        this.elementRef = elementRef;
     }
+    SetFocusDirective.prototype.ngAfterViewInit = function () {
+        this.renderer.invokeElementMethod(this.elementRef.nativeElement, 'focus', []);
+    };
     SetFocusDirective = __decorate([
         core_1.Directive({
             selector: '[setFocus]'
         }), 
-        __metadata('design:paramtypes', [core_1.ElementRef])
+        __metadata('design:paramtypes', [core_1.Renderer, core_1.ElementRef])
     ], SetFocusDirective);
     return SetFocusDirective;
 }());

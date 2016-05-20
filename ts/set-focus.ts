@@ -1,19 +1,15 @@
-import {Directive, ElementRef} from '@angular/core';
+import { Directive, ElementRef, Renderer } from '@angular/core';
 
 @Directive({
   selector: '[setFocus]'
 })
 export class SetFocusDirective {
 
-  constructor(private el: ElementRef) {
-    setTimeout(function() {
-      let end = el.nativeElement.value.length;
+  constructor(public renderer: Renderer, public elementRef: ElementRef) {}
 
-      if (typeof el.nativeElement.selectionStart !== 'undefined') {
-        el.nativeElement.selectionStart = end;
-        el.nativeElement.selectionEnd = end;
-      }
-    }, 0);
+  ngAfterViewInit() {
+    this.renderer.invokeElementMethod(
+      this.elementRef.nativeElement, 'focus', []);
   }
 
 }

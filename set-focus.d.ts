@@ -1,5 +1,7 @@
-import { ElementRef } from '@angular/core';
+import { ElementRef, Renderer } from '@angular/core';
 export declare class SetFocusDirective {
-    private el;
-    constructor(el: ElementRef);
+    renderer: Renderer;
+    elementRef: ElementRef;
+    constructor(renderer: Renderer, elementRef: ElementRef);
+    ngAfterViewInit(): void;
 }
