@@ -1,9 +1,9 @@
-import { Directive, ElementRef, Renderer } from '@angular/core';
+import { Directive, AfterViewInit, ElementRef, Renderer } from '@angular/core';
 
 @Directive({
   selector: '[setFocus]'
 })
-export class SetFocusDirective {
+export class SetFocusDirective implements AfterViewInit {
 
   constructor(public renderer: Renderer, public elementRef: ElementRef) {}
 
