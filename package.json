@@ -1,6 +1,6 @@
 {
   "name": "@strictd/set-focus",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Set focus to form element on page load",
   "main": "set-focus.js",
   "author": "Gary <gary@strictdevelopment.com>",
