@@ -11,18 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var set_focus_1 = require('./set-focus');
-var SetFocusDirectiveModule = (function () {
-    function SetFocusDirectiveModule() {
+var SetFocusModule = (function () {
+    function SetFocusModule() {
     }
-    SetFocusDirectiveModule = __decorate([
+    SetFocusModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule],
             declarations: [set_focus_1.SetFocusDirective],
             exports: [set_focus_1.SetFocusDirective]
         }), 
         __metadata('design:paramtypes', [])
-    ], SetFocusDirectiveModule);
-    return SetFocusDirectiveModule;
+    ], SetFocusModule);
+    return SetFocusModule;
 }());
-exports.SetFocusDirectiveModule = SetFocusDirectiveModule;
+exports.SetFocusModule = SetFocusModule;
 //# sourceMappingURL=index.js.map

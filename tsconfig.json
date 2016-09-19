@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
   "compilerOptions": {
-    "outDir": "../",
+    "outDir": "./",
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -15,13 +15,9 @@
     "declaration": true
   },
   "files": [
-    "index.ts",
-    "set-focus.ts"
-  ],
-  "filesGlob": [
-    "**/*.ts",
-    "!node_modules/**/*"
-  ],    
+    "src/index.ts",
+    "src/set-focus.ts"
+  ],  
   "exclude": [
     "node_modules"
   ]

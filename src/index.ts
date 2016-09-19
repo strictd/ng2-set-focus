@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { SetFocusDirective } from './set-focus';
 
 @NgModule({
-  imports: [ CommonModule ],
+  imports:      [ CommonModule ],
   declarations: [ SetFocusDirective ],
-  exports: [ SetFocusDirective ]
+  exports:      [ SetFocusDirective ]
 })
-export class SetFocusDirectiveModule {}
+export class SetFocusModule { }

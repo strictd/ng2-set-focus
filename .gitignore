@@ -1,4 +1,6 @@
 node_modules/
-typings/
 npm-debug.log
 .DS_Store
+*.js
+*.js.*
+*.d.ts

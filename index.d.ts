@@ -1,2 +1,2 @@
-export declare class SetFocusDirectiveModule {
+export declare class SetFocusModule {
 }
