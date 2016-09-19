@@ -1,6 +1,8 @@
 npm-debug.log
 .npmignore
 .gitignore
+tsconfig.json
+tslint.json
 src/
 node_modules/
 *.ts
